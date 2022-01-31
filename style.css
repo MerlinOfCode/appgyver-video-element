@@ -2,11 +2,24 @@ h1, p {
   font-family: Lato;
 }
 html 
-{  background: black
+{  background: black;
+  padding: 0px;
 
 }
-
-ReactPlayer {
-
-  width: 100%;
+.player-wrapper {
+  position: relative;
+  padding: 0px;
+  object-fit: cover;
+  
 }
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0px;
+}
+
+video::-internal-media-controls-overlay-cast-button {
+  display: none;
+}
+
