@@ -5,9 +5,9 @@ import './style.css';
 
 
 const params = new URLSearchParams(window.location.search);
-const paramValue = "https://res.cloudinary.com/wikacy-com/video/upload/v1642352266/trailers/zeitgeist-trailer_njhtpf.mp4"
+/*const paramValue = "https://res.cloudinary.com/wikacy-com/video/upload/v1642352266/trailers/zeitgeist-trailer_njhtpf.mp4"*/
 
-/*const paramValue = params.get("url");*/
+const paramValue = params.get("url");
 
 
  
