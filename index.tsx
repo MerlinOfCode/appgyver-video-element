@@ -16,14 +16,13 @@ const App: React.FC = () => (
   <div>
     <ReactPlayer url={paramValue}
     
-    playing 
-    isFullscreen={true}
+    playing     
     controls
     preload
     disableRemotePlayback={true}
     allowFullscreen ={false}
     playbackrate= {false}
-    config={{ file: { attributes: { controlsList: 'nodownload noplaybackrate nofullscreen noremoteplayback',disablePictureInPicture: true, isFullscreen: true } } }}
+    config={{ file: { attributes: { controlsList: 'nodownload noplaybackrate nofullscreen noremoteplayback',disablePictureInPicture: true } } }}
     width='100%'
     height='100%'
      />
