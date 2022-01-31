@@ -1,4 +1,4 @@
-# react-player-demo-cx1uxr
+# appgyver-video-element
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-player-demo-cx1uxr)
 
