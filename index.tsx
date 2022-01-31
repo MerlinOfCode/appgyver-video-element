@@ -14,7 +14,12 @@ const paramValue = "https://res.cloudinary.com/wikacy-com/video/upload/v16423522
 
 const App: React.FC = () => (
   <div>
-    <ReactPlayer url={paramValue} playing/>
+    <ReactPlayer url={paramValue} 
+    playing 
+    controls
+    width='100%'
+    height='100%'
+     />
   </div>
 );
 

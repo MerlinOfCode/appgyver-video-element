@@ -1,4 +1,12 @@
 h1, p {
   font-family: Lato;
 }
-html {background: black}
+html 
+{  background: black
+
+}
+
+ReactPlayer {
+
+  width: 100%;
+}
